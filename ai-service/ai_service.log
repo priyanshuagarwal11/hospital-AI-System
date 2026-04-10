@@ -1,0 +1,637 @@
+INFO:     Will watch for changes in these directories: ['/Users/priyanshu/Desktop/hospital-ai-system/ai-service']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [51135] using WatchFiles
+INFO:     Started server process [52049]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-04-01 20:19:33,578 - INFO - 4 changes detected
+INFO:     127.0.0.1:61295 - "GET /health HTTP/1.1" 200 OK
+2026-04-01 20:20:26,399 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:61364 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:21:02,923 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:61373 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:22:03,068 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61404 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:22:03,091 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61405 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:22:04,042 - INFO - Staff prediction requested
+INFO:     127.0.0.1:61407 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:24:40,043 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62276 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:24:40,082 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62278 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:24:41,157 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62280 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:41:22,360 - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'models/bed_predictor.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [52049]
+2026-04-01 20:41:24,056 - INFO - 3 changes detected
+INFO:     Started server process [65224]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-04-01 20:42:31,105 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:63385 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:42:31,146 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:63386 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:42:33,457 - INFO - Staff prediction requested
+INFO:     127.0.0.1:63388 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:43:29,704 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:63409 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:46:06,982 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:63497 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:46:08,278 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:63498 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:46:08,309 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:63497 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:46:09,777 - INFO - Staff prediction requested
+INFO:     127.0.0.1:63501 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:46:09,796 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:63498 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:46:09,838 - INFO - Staff prediction requested
+INFO:     127.0.0.1:63498 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:46:41,445 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:63523 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:46:41,460 - INFO - Bed prediction requested for 8 days ahead
+INFO:     127.0.0.1:63525 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:58:24,923 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:64744 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:58:25,004 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64745 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:58:26,192 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:64744 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 20:58:26,214 - INFO - Staff prediction requested
+INFO:     127.0.0.1:64748 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 20:58:26,223 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64745 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 20:58:27,495 - INFO - Staff prediction requested
+INFO:     127.0.0.1:64744 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 21:04:47,972 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64895 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:04:49,190 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64895 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:05:41,079 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64917 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:05:42,446 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:64919 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 21:05:42,467 - INFO - Staff prediction requested
+INFO:     127.0.0.1:64921 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 21:05:42,486 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64921 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:05:43,643 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:64919 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 21:05:43,667 - INFO - Staff prediction requested
+INFO:     127.0.0.1:64917 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 21:05:45,175 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64917 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:05:46,546 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64917 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:07:06,191 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64991 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:07:07,394 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:64991 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:12:11,997 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49509 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:12:13,155 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49509 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:12:44,194 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:49528 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:15:20,623 - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'models/bed_predictor.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [65224]
+2026-04-01 21:15:22,704 - INFO - 3 changes detected
+INFO:     Started server process [84933]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-04-01 21:17:18,542 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49620 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:17:19,905 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49620 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:17:26,552 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:49626 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:17:33,463 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:49635 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:17:38,119 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:49635 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:18:15,200 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:49646 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 21:18:18,205 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:49646 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:36:13,951 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55774 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:36:16,317 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:55775 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:36:16,401 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55774 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:36:18,438 - INFO - Staff prediction requested
+INFO:     127.0.0.1:55776 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:36:18,456 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:55775 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:36:18,476 - INFO - Staff prediction requested
+INFO:     127.0.0.1:55776 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:37:27,713 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55792 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:37:28,868 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55792 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:38:50,497 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55832 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:38:51,826 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:55836 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:38:51,843 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:55832 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:38:53,173 - INFO - Staff prediction requested
+INFO:     127.0.0.1:55838 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:38:53,182 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:55836 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:38:53,217 - INFO - Staff prediction requested
+INFO:     127.0.0.1:55838 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:38:58,888 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:55851 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:38:58,902 - INFO - Bed prediction requested for 1 days ahead
+INFO:     127.0.0.1:55852 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:54:06,902 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57469 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:54:08,897 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:57478 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:54:08,927 - INFO - Staff prediction requested
+INFO:     127.0.0.1:57480 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:54:09,003 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57480 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:54:10,325 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:57478 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:54:10,343 - INFO - Staff prediction requested
+INFO:     127.0.0.1:57469 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 22:54:10,351 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57480 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:54:11,862 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57480 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 22:54:15,066 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:57480 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 22:54:15,085 - INFO - Bed prediction requested for 9 days ahead
+INFO:     127.0.0.1:57478 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:04:33,351 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:57703 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:04:33,431 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57704 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:04:35,722 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:57703 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:04:35,741 - INFO - Staff prediction requested
+INFO:     127.0.0.1:57706 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:04:35,794 - INFO - Staff prediction requested
+INFO:     127.0.0.1:57703 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:04:35,803 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:57706 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:06:44,647 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:58620 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:06:44,712 - INFO - Bed prediction requested for 9 days ahead
+INFO:     127.0.0.1:58622 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:07:30,910 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58656 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:07:31,979 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58656 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:07:34,703 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:58656 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:19:39,783 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:58918 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:19:39,847 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58919 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:19:41,088 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:58918 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:19:41,109 - INFO - Staff prediction requested
+INFO:     127.0.0.1:58922 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:19:41,124 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58919 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:19:42,405 - INFO - Staff prediction requested
+INFO:     127.0.0.1:58918 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:20:15,588 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58958 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:20:16,712 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:58958 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:34:40,418 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:60127 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:34:41,714 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:60128 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:34:41,733 - INFO - Staff prediction requested
+INFO:     127.0.0.1:60129 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:34:41,742 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:60128 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:34:43,291 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:60127 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:34:43,340 - INFO - Staff prediction requested
+INFO:     127.0.0.1:60129 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-01 23:34:53,706 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:60144 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-01 23:34:53,721 - INFO - Bed prediction requested for 5 days ahead
+INFO:     127.0.0.1:60146 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:35:29,070 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:60997 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:35:30,424 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:60997 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:36:42,108 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61044 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:36:43,091 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61044 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:39:00,132 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:61079 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-01 23:39:15,752 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61083 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:11:41,746 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50409 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:11:43,131 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50409 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:11:46,944 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50409 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:11:48,694 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50424 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 01:11:48,730 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50428 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 01:11:48,751 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50424 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:11:51,529 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50428 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 01:11:51,553 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50409 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 01:35:06,462 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52295 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:35:07,850 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52295 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:36:45,784 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:52345 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:41:34,353 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52438 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:41:35,702 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52438 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:59:39,667 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:53569 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 01:59:42,122 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:53569 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:09:29,856 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61692 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:09:30,326 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61693 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:09:34,720 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61692 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:09:34,752 - INFO - Staff prediction requested
+INFO:     127.0.0.1:61695 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:09:34,767 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61693 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:09:36,259 - INFO - Staff prediction requested
+INFO:     127.0.0.1:61695 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:09:37,259 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61695 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:09:37,275 - INFO - Bed prediction requested for 1 days ahead
+INFO:     127.0.0.1:61693 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:09:43,637 - INFO - Bed prediction requested for 8 days ahead
+INFO:     127.0.0.1:61716 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:09:44,727 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61717 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:09:59,076 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61725 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:10:00,321 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61725 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:15:04,398 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61832 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:15:04,513 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61834 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:15:06,321 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:61832 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:15:06,345 - INFO - Staff prediction requested
+INFO:     127.0.0.1:61835 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:15:06,364 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61834 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:15:07,636 - INFO - Staff prediction requested
+INFO:     127.0.0.1:61832 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:20:30,395 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62785 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:20:30,502 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62789 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:20:31,885 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62785 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:20:31,901 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62790 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:20:31,914 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62785 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:20:32,963 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62790 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:20:34,274 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62790 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:20:34,298 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62785 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:20:35,501 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62789 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:20:35,508 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62790 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:20:35,531 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62785 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:20:35,543 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62790 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:21:31,545 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62844 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:21:32,883 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62845 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:21:32,931 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62844 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:21:34,649 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62850 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:21:34,657 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62845 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:21:34,703 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62844 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:25:31,205 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62980 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:25:31,262 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62981 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:25:32,752 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:62980 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:25:32,772 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62984 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:25:32,781 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:62981 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:25:33,923 - INFO - Staff prediction requested
+INFO:     127.0.0.1:62980 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 04:26:10,431 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:63001 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 04:26:10,447 - INFO - Bed prediction requested for 8 days ahead
+INFO:     127.0.0.1:63003 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:26:17,959 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:63008 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:26:19,503 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:63008 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:26:27,452 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:63014 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 04:26:34,254 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:63020 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:12:14,521 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:49694 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 05:12:14,669 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49696 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:12:17,227 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:49694 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 05:12:17,249 - INFO - Staff prediction requested
+INFO:     127.0.0.1:49697 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 05:12:17,260 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49696 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:12:18,479 - INFO - Staff prediction requested
+INFO:     127.0.0.1:49694 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 05:12:28,684 - INFO - Bed prediction requested for 8 days ahead
+INFO:     127.0.0.1:49711 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:12:29,754 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:49712 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 05:13:17,778 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:19,183 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:22,936 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:25,047 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:49740 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 05:13:25,072 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:26,612 - INFO - Staff prediction requested
+INFO:     127.0.0.1:49741 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 05:13:26,620 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:49740 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 05:13:26,647 - INFO - Staff prediction requested
+INFO:     127.0.0.1:49726 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 05:13:26,658 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49741 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:27,848 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 05:13:32,513 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:49726 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 09:08:52,627 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61800 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 09:08:55,192 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:61800 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:03:00,284 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50224 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:03:02,497 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50224 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:03:03,799 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50234 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:03:03,837 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50224 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:03:05,023 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50237 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:03:05,037 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50234 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:03:05,063 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50224 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:03:05,072 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50237 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:03:15,206 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50254 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:03:15,222 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:50255 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:04:16,478 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50300 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:04:17,613 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50300 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:04:30,362 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50314 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:04:30,394 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50315 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:04:31,640 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:50314 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:04:31,659 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50317 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:04:31,668 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:50315 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:04:33,121 - INFO - Staff prediction requested
+INFO:     127.0.0.1:50314 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:27:44,369 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:51750 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:27:45,690 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:51750 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:27:47,877 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:51750 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:27:49,108 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:51765 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:27:49,126 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:51750 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:27:50,356 - INFO - Staff prediction requested
+INFO:     127.0.0.1:51767 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:27:50,364 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:51765 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:27:50,382 - INFO - Staff prediction requested
+INFO:     127.0.0.1:51750 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:37:06,549 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52826 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:37:07,805 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52827 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:37:07,833 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52826 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:37:09,085 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52830 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:37:09,091 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52827 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:37:09,109 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52826 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:37:14,954 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52841 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:37:15,966 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52841 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:38:48,082 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52878 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:38:49,510 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52878 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:41:12,582 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52955 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:41:13,966 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52956 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:41:13,979 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52955 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:41:16,059 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52958 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:41:16,065 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52956 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:41:16,100 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52956 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:41:30,826 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52972 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:41:30,843 - INFO - Bed prediction requested for 6 days ahead
+INFO:     127.0.0.1:52974 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:42:24,844 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52992 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:42:24,878 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52993 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:42:25,990 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:52992 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:42:26,013 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52996 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:42:26,035 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:52996 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:42:27,295 - INFO - Staff prediction requested
+INFO:     127.0.0.1:52992 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:44:04,264 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:53124 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:44:05,477 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:53125 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:44:05,496 - INFO - Staff prediction requested
+INFO:     127.0.0.1:53128 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:44:05,509 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:53125 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:44:06,910 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:53128 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:44:06,929 - INFO - Staff prediction requested
+INFO:     127.0.0.1:53124 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:48:11,564 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54063 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:48:12,682 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54063 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:48:15,333 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54063 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:48:16,518 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54075 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:48:16,582 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54078 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:48:16,603 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54078 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:48:18,010 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54075 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:48:18,027 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54063 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:48:29,166 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54103 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:48:30,108 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54103 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:49:03,361 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54116 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:49:04,453 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54116 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:49:27,268 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:54132 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:49:58,162 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54157 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:49:59,378 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54157 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:50:00,814 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54167 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:50:00,840 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54170 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:50:00,863 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54170 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:50:02,095 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54167 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:50:02,110 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54157 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:50:02,115 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54170 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:51:00,980 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54224 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:51:01,025 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54225 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:51:02,250 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54227 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:51:02,269 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54227 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:51:02,289 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54227 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:51:03,389 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54225 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:51:03,396 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54224 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:51:03,417 - INFO - Bed prediction requested for 3 days ahead
+INFO:     127.0.0.1:54241 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:51:04,237 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54225 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:51:10,711 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54251 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:51:10,727 - INFO - Bed prediction requested for 5 days ahead
+INFO:     127.0.0.1:54253 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:52:13,032 - INFO - Bed prediction requested for 5 days ahead
+INFO:     127.0.0.1:54302 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:52:13,988 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54304 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:52:16,255 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54304 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:52:17,314 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54304 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:52:33,797 - INFO - Bed prediction requested for 14 days ahead
+INFO:     127.0.0.1:54314 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:55:44,673 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54413 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:55:46,117 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54414 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:55:46,131 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54416 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:55:46,148 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54416 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:55:46,162 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54414 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:55:47,124 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54413 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:56:59,705 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54449 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:57:00,762 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54449 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:57:03,086 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54449 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:57:04,434 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54462 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:57:04,452 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54465 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-02 10:57:04,462 - INFO - Bed prediction requested for 7 days ahead
+INFO:     127.0.0.1:54449 - "POST /predict/beds HTTP/1.1" 200 OK
+2026-04-02 10:57:05,748 - INFO - Equipment prediction requested for 1 days ahead
+INFO:     127.0.0.1:54465 - "POST /predict/equipment HTTP/1.1" 200 OK
+2026-04-02 10:57:05,773 - INFO - Staff prediction requested
+INFO:     127.0.0.1:54462 - "POST /predict/staff HTTP/1.1" 200 OK
+2026-04-03 16:21:37,185 - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'models/equipment_predictor.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84933]
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00007ff85b703100 (most recent call first):
+  <no Python frame>
+INFO:     Stopping reloader process [51135]
