@@ -1,0 +1,33 @@
+services:
+  # 1. AI Microservice (FastAPI)
+  - type: web
+    name: hospital-ai-service
+    runtime: python
+    rootDir: ai-service
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # 2. Node.js Backend API
+  - type: web
+    name: hospital-ai-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node src/app.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AI_SERVICE_URL
+        fromService:
+          type: web
+          name: hospital-ai-service
+          property: host
+      - key: FRONTEND_URL
+        sync: false
