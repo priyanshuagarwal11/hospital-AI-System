@@ -16,8 +16,8 @@ export default function LoginPage() {
   const [error,   setError]   = useState('')
   const [showPwd, setShowPwd] = useState(false)
   const [form,    setForm]    = useState({
-    name: '', email: 'admin@hospital.com', password: 'admin123',
-    role: 'admin', department: 'Administration'
+    name: '', email: '', password: '',
+    role: 'doctor', department: 'General'
   })
 
   const update = k => e => setForm(f => ({ ...f, [k]: e.target.value }))
@@ -127,13 +127,6 @@ export default function LoginPage() {
             </p>
           </div>
 
-          {/* Demo credentials hint */}
-          {mode === 'login' && (
-            <div className="mb-6 px-4 py-3 rounded-xl bg-sky-500/5 border border-sky-500/20 text-xs text-sky-400">
-              <strong>Demo:</strong> admin@hospital.com / admin123
-            </div>
-          )}
-
           {error && (
             <div className="mb-5 flex items-center gap-2 px-4 py-3 rounded-xl bg-red-500/10 border border-red-500/20 text-sm text-red-400">
               <AlertCircle className="w-4 h-4 flex-shrink-0" />
@@ -152,7 +145,7 @@ export default function LoginPage() {
 
             <div>
               <label className="label">Email Address</label>
-              <input className="input" type="email" placeholder="admin@hospital.com"
+              <input className="input" type="email" placeholder="name@hospital.com"
                 value={form.email} onChange={update('email')} required />
             </div>
 
